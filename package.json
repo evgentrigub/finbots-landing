@@ -13,7 +13,8 @@
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "logs": "heroku logs --app=finbots-landing --tail"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.27",
