@@ -8,7 +8,7 @@
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "start": "node server.js",
-    "build:prod": "gatsby build",
+    "build": "gatsby build",
     "dev": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
