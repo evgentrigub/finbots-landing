@@ -33,5 +33,9 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.2"
+  },
+  "engines": {
+    "node": "14.12.1",
+    "npm": "7.5.3"
   }
 }
